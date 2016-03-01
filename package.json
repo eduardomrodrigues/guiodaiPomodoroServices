@@ -1,0 +1,23 @@
+{
+  "name": "guiodaipomodoroservices",
+  "version": "1.0.0",
+  "description": "WS for guiodai pomodoro",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eduardomrodrigues/guiodaiPomodoroServices.git"
+  },
+  "keywords": [
+    "WS",
+    "REST"
+  ],
+  "author": "Eduardo de Moura Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardomrodrigues/guiodaiPomodoroServices/issues"
+  },
+  "homepage": "https://github.com/eduardomrodrigues/guiodaiPomodoroServices#readme"
+}
