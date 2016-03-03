@@ -2,7 +2,7 @@
   "name": "guiodaipomodoroservices",
   "version": "1.0.0",
   "description": "WS for guiodai pomodoro",
-  "main": "index.js",
+  "main": "guiodai-pomodoro-ws.js",
   "scripts": {
     "test": "test"
   },
