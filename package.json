@@ -1,6 +1,6 @@
 {
   "name": "guiodaipomodoroservices",
-  "version": "1.0.0",
+  "version": "1.1.0-SNAPSHOT",
   "description": "WS for guiodai pomodoro",
   "main": "guiodai-pomodoro-ws.js",
   "scripts": {
