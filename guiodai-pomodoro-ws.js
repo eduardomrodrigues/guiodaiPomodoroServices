@@ -5,6 +5,8 @@
   var express = require('express');
   var mongoose = require('mongoose');
   var bodyParser = require('body-parser');
+  var https = require('https');
+  var fs = require('fs');
 
   mongoose.connect('mongodb://localhost');
 
@@ -25,6 +27,9 @@
 
 
   var app = express();
+
+
+
 
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
@@ -73,10 +78,15 @@
 
 
 
+  https.createServer({
+    key : fs.readFileSync('key.pem'),
+    cert : fs.readFileSync('cert.pem')
+  }, app).listen(8080);
+
 
 
   app.use('/pomodoro/services', router);
-  app.listen(8080);
+  //app.listen(8080);
 
 
 })();
